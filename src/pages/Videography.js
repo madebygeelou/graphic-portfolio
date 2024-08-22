@@ -5,8 +5,11 @@ import VideoHover from '../components/videoHover';
 const Videography = () => {
   return (
     <>
-    <div class="filmheader" src =''>
-      <h1>FILMS</h1>
+    <main class="videography-page">
+    <div class='filmheader'>
+      <video class="filmclip" autoPlay muted loop playsInline>
+        <source src ='./assets/everyfilmforwebsite1.mp4'></source></video>
+      <h1 class='filmTitle'>FILMS</h1>
     </div>
     <div className="videos">
       <VideoHover
@@ -55,6 +58,7 @@ const Videography = () => {
         height="auto" 
       />
     </div>
+    </main>
     </>
   );
 };
