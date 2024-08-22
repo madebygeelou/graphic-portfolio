@@ -4,6 +4,10 @@ import VideoHover from '../components/videoHover';
 
 const Videography = () => {
   return (
+    <>
+    <div class="filmheader" src =''>
+      <h1>FILMS</h1>
+    </div>
     <div className="videos">
       <VideoHover
         src="./assets/conceopt1.mp4" 
@@ -11,12 +15,47 @@ const Videography = () => {
         height="auto" 
       />
       <VideoHover
-        src=""
+        src="./assets/lvlvid1.mp4"
         width="300px" 
         height="auto" 
       />
-      {/* Add more HoverVideo components as needed */}
+      <VideoHover
+        src="./assets/resized4dayvacation_1.mp4"
+        width="300px" 
+        height="auto" 
+      />
+      <VideoHover
+        src="./assets/HOCO.mp4"
+        width="300px" 
+        height="auto" 
+      />
+      <VideoHover
+        src="./assets/afuera1.mp4"
+        width="300px" 
+        height="auto" 
+      />
+      <VideoHover
+        src="./assets/deitities11.mp4"
+        width="300px" 
+        height="auto" 
+      />
+      <VideoHover
+        src="./assets/finishedcity.mp4"
+        width="300px" 
+        height="auto" 
+      />
+      <VideoHover
+        src="./assets/finishedvideoworkout.mp4"
+        width="300px" 
+        height="auto" 
+      />
+      <VideoHover
+        src="./assets/nyxtracklistshortened.mp4"
+        width="300px" 
+        height="auto" 
+      />
     </div>
+    </>
   );
 };
 
